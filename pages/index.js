@@ -24,6 +24,7 @@ function Home() {
 
   return (
     <>
+      <h1>Joke Generator</h1>
       <Joke joke={joke} btnText={btnText} />
       {btnText === 'Get A Joke' || btnText === 'Get A New Joke' ? (
         <Button type="button" onClick={getAJoke}>
